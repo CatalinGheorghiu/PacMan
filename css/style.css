@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: brown;
+    line-height: 0;
+    justify-content: center;
+}
+
+span {
+    color: red;
+}
+
+#grid {
+    display: grid;
+    border: 5px solid;
+}
+
+.wall {
+    background-image: url("/img/brick.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.coins {
+    background-image: url("/img/red_coin.png");
+    background-size: 2vh;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center;
+}
+.ground {
+    background-image: url("/img/grass.png");
+    background-size: cover;
+}
+
+.pacman {
+    background-image: url("/img/army-149126_1280.png");
+    background-size: 4.5vh;
+    /* background-color: black; */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* padding-left: 6rem; */
+}
+
+.blue_phantom {
+    background-image: url("/img/blue.png");
+    background-size: 4vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.red_phantom {
+    background-image: url("/img/red.png");
+    background-size: 3.5vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.yellow_phantom {
+    background-image: url("/img/yellow.png");
+    background-size: 4.3vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.green_phantom {
+    background-image: url("/img/green.png");
+    background-size: 4.5vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#keys {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    margin-left: 1rem;
+    padding: 2rem;
+}
+
+#btn-1,
+#btn-start {
+    margin: 2rem;
+    height: 3rem;
+    width: 10rem;
+    background: yellowgreen;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+label,
+p {
+    margin: 2rem;
+}
